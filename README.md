@@ -12,7 +12,7 @@ A Python project that analyzes text to detect emotions, cleans the data, and rec
 
 ## Requirements
 
-* Python 3.13.7+
+* Python 3.13.7
 * Spotify Developer Account
 * `.env` file containing:
 
