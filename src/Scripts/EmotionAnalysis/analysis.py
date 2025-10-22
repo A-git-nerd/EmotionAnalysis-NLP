@@ -1,10 +1,10 @@
 import pandas as pd
-from Scripts.Model.model import get_emotion
+from src.Scripts.Model.model import emotion_detect
 
 df = pd.read_csv("../DataExtraction/cleaned_chat.csv")
 
-df["Emotion"] = df["Message"].apply(get_emotion)
+df["Emotion"] = df["Message"].apply(emotion_detect)
 
-df.to_csv("../DataExtraction/emotions.csv",index=false)
+df.to_csv("../DataExtraction/emotions.csv",index=False)
 
 print("Done!")
