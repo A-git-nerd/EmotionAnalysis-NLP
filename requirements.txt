@@ -1,0 +1,7 @@
+transformers==4.45.1
+torch>=2.2.0
+spotipy==2.23.0
+requests>=2.31.0
+tqdm>=4.66.0
+numpy>=1.25.0
+pandas>=2.2.0
